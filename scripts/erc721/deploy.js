@@ -13,7 +13,7 @@ async function main() {
   console.log('Address written to deployed-address.ts: ', contractAddress)
 }
 // npx hardhat run scripts/erc721/deploy.js --network swisstronik
-// node scripts/perc20/mint.js
+// node scripts/erc721/mint.js
 main()
   .then(() => process.exit(0))
   .catch((error) => {
